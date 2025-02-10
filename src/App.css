@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 0;
+  top: -2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.static {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 1px;
+}
+
+.square {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 1px;
+  transition: transform 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+.state0 {
+  background: gray;
+}
+
+.state1 {
+  background: cyan;
+}
+
+.state2 {
+  background: magenta;
+}
+
+.square:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px black;
+}
+
+.error {
+  border-color: red;
+  box-shadow: 0px 0px 10px red;
+}
+
+.error:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px red;
+}
+
+.square:active {
+  transform: scale(0.95);
+}
+
+button {
+  border: 2px solid black;
+  margin: 1px;
+}
+
+h3 {
+  margin: 0;
+}

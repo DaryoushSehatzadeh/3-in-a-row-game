@@ -5,7 +5,7 @@ import NavBar from './NavBar.jsx'
 
 export default function App( {apiUrl} ){
   return (<>
-  <NavBar />
+  {/* <NavBar /> */}
   <br></br>
   <Game apiUrl={apiUrl} />
   </>)
